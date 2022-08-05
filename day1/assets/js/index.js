@@ -17,8 +17,8 @@ $(function () {
     })
 
 
-
 })
+
 
 function getuseInfo() {
     $.ajax({
@@ -30,7 +30,7 @@ function getuseInfo() {
         //     Authorization:localStorage.getItem('token') || ''
         // },
         success: (res) => {
-            console.log(res)
+            // console.log(res)
             if (res.status !== 0) {
                 return layui.layer.msg('获取用户信息失败')
             }
@@ -61,4 +61,6 @@ function renderAvatar(user) {
         $('.layui-nav-img').show().attr('src', user.user_pic);
         $('.user-touxian').hide()
     }
-}
+    }
+
+   

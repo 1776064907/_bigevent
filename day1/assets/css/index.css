@@ -45,3 +45,6 @@ div.userinfo{
     width: 40px;
     height: 40px;
 }
+.layui-side-scroll{
+    width: 200px;
+}

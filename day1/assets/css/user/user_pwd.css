@@ -1,0 +1,14 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 15px;
+}
+.layui-form-item .layui-input-inline{
+    width: 550px;
+}
+.layui-input-block {
+    width: 500px;
+    text-align: center;
+}
